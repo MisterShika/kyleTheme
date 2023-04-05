@@ -1,0 +1,63 @@
+body{
+	background: url(img/fishbg.jpg) no-repeat 0 50% fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+	font-family: Verdana, 'Lucida Grande', Arial, sans-serif;
+    font-size: 14px;
+	line-height: 1.8em;
+	color: #525252;
+}
+main, footer{
+	width: 890px;
+	padding: 5px 50px 50px;
+	margin: 0 auto;
+}
+main{
+	margin-top: 50px;
+	background: #ffffff;
+}
+.title-box{
+	min-height: 179px;
+	margin-top: 20px;
+	margin-bottom: -50px;
+	background: url(img/fishheader.png) no-repeat 100%;	
+}
+footer{
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, sans-serif;
+    font-size: 11px;
+    border-top: 1px solid #CCCCCC;
+    color: #ffffff;
+	margin-top: 20px;
+}
+h1{
+    font: 60px/1.8em 'Raleway', 'sans-serif';
+    font-weight: 500;
+    color: #E66C1A;	
+}
+
+@media (max-width: 1024px) {
+	main, footer{
+		width: 658px;
+	}
+}
+@media (max-width: 768px) {
+	main, footer{
+		width: 370px;
+	}
+	.title-box{
+		min-height: 0;
+		padding-top: 125px;
+		background-position: 50% 0;
+	}
+	h1{
+		line-height: 1.8em;
+	}
+}
+@media (max-width: 480px) {
+	main, footer{
+		width: 210px;
+	}
+}
