@@ -25,6 +25,7 @@ get_header();
 						<nav id="social-bar">
 							<ul>
 								<li id="linkedin-button" class="social-button"><a href="'.$metaLinks['linkedin'][0].'"><img src="'.get_stylesheet_directory_uri().'/styles/img/linkedin-button.png" alt="LinkedIn"/></a></li>
+								<li id="github-button" class="social-button"><a href="'.$metaLinks['github'][0].'"><img src="'.get_stylesheet_directory_uri().'/styles/img/github-button.png" alt="GitHub"/></a></li>
 								<li id="indeed-button" class="social-button"><a href="'.$metaLinks['indeed'][0].'"><img src="'.get_stylesheet_directory_uri().'/styles/img/indeed-button.png" alt="Indeed"/></a></li>
 							</ul>
 						</nav>
